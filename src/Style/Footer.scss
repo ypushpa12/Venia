@@ -15,9 +15,9 @@ $blue: #172026;
 .footer_account_one li {
   list-style-type: none;
 }
-// .foot {
-//   padding-top: 5rem;
-// }
+.foot {
+  padding-top: 5rem;
+}
 .footone {
   padding-bottom: 2rem;
 }
@@ -68,9 +68,6 @@ $blue: #172026;
     display: flex;
     gap: 20px;
     padding-top: 26px;
-  }
-  .foot{
-    padding-top: 6rem;
   }
   .footer_termsphone a {
     color: $blue;

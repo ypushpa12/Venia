@@ -29,7 +29,7 @@ const Navbarone = ({ setCategory, selectedCategory, ...props }) => {
                         <span class="line line2"></span>
                         <span class="line line3"></span>
                     </div>
-                    <div class="Vlogo">
+                    <div class="logo">
 
                         <div className='veniaicon'>
                             <h1><NavLink to="/">VENIA</NavLink></h1>
@@ -40,7 +40,7 @@ const Navbarone = ({ setCategory, selectedCategory, ...props }) => {
                         <NavLink to="/cart" className="cart">
                             {' '}
                             {props.countCartItems ? (
-                                <p className="btn btn-success">{props.countCartItems}</p>
+                                <p className="btn">{props.countCartItems}</p>
                             ) : (
                                 ''
                             )}

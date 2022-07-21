@@ -5,14 +5,14 @@ import "../Style/Her.scss"
 function Hero() {
   return (
     <div>
-      <div className='adc'>
+      <div className='mnb'>
         <div className='container'>
           <div className='herosection'>
             <div class="aem-Grid aem-Grid--12">
               <div class="aem-GridColumn aem-GridColumn--default--4">
                 <div class="cardone">
                   <div class="card-body">
-                    <h5 class="card-title">Women's</h5>
+                    <h5 class="card-title">women's</h5>
                     <div className='lines'>
                       <hr />
                     </div>
@@ -29,7 +29,7 @@ function Hero() {
         </div>
       </div>
 
-      <div className='mob herosection'>
+      <div className='awq herosection'>
         <div class="aem-Grid aem-Grid--12">
           <div class="aem-GridColumn aem-GridColumn--default--8 aem-GridColumn--phone--12">
             <div class="card-img">
@@ -40,7 +40,7 @@ function Hero() {
           <div class="aem-GridColumn aem-GridColumn--default--4 aem-GridColumn--phone--12">
             <div class="cardone">
               <div class="card-body">
-                <h3 class="card-title">Women's</h3>
+                <h5 class="card-title">women's</h5>
                 <div className='lines'>
                   <hr />
                 </div>

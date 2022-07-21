@@ -8,10 +8,10 @@
 
     hr {
         height: 0.6rem !important;
-        width: 8rem;
+        width: 7%;
         background-color: blue !important;
         margin-bottom: 3rem;
-        margin-left: 35rem !important;
+        margin-left: 31rem !important;
         opacity: 3;
     }
 
@@ -21,10 +21,7 @@
         text-align: left;
 
         img {
-            height: 16rem;
-            margin-top: -4rem;
-            padding-bottom: 0rem;
-
+            padding-bottom: 2rem;
         }
 
         div:last-child {
@@ -169,8 +166,7 @@
     .acco-right {
         padding-left: 8rem;
     }
-
-    .accordianone {
+    .accordianone{
         display: none;
     }
 
@@ -185,8 +181,7 @@
     .basket hr {
         display: none;
     }
-
-    .accordianone {
+    .accordianone{
         display: none;
     }
 

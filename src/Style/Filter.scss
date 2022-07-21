@@ -1,114 +1,93 @@
-@mixin buttons ($color) {
-    border-radius: 5px;
+
+@mixin buttons  ($color){
+    border-radius: 15px 15px;
     background-color: $color;
-    height: 30px;
-    width: 50px;
+    height: 40px;
+    width: 64px;
 }
 
-.colors {
-    display: flex;
-    gap: 4px;
+.red_div { 
+   @include buttons(#172026)
 }
-
-.colors1 {
-    display: flex;
-    gap: 4px;
-    margin-top: 20px;
+.red_div1 {  
+    @include buttons(#DFE1E2)
 }
-
-.square {
-    @include buttons(#172026)
+.red_div2 { 
+    @include buttons(#2D9D78)
 }
-
-.square1 {
-    @include buttons(#085ea0)
+.red_div3 { 
+    @include buttons(#FDBA5E)
 }
-
-.square2 {
-    @include buttons(#c0b50d)
+.red_div4 {   
+    @include buttons(#7950E8)
 }
-
-.square3 {
-    @include buttons(#8b0516)
-}
-
-.square4 {
-    @include buttons(#6408D3)
-}
-
-.square5 {
+.red_div5{  
     @include buttons(#E34850)
 }
-
-.square6 {
+.red_div6 {   
+    @include buttons(#6408D3)
+}
+.red_div7 {  
     @include buttons(#F9009A)
 }
-
-.square7 {
+.red_div8 {  
     @include buttons(#EB7327)
 }
-
-.square8 {
-    @include buttons(#a54307)
+.red_div9{   
+    @include buttons(#57CB76)
 }
-
-
-
 .colorfilter {
     display: flex;
     gap: 2px;
 }
-
-label {
-    padding-left: 10px;
-    padding-top: 10px;
+.showmor a{
+    color:black;
 }
-
-.filter {
-    padding-top: 20px;
+label{
+    padding-left: 10px;
+    padding-top:10px;
+}
+.filter{
+    padding-top:20px;
     color: #181C24;
     font-size: 14px;
 }
 
 
-.bread .mobile {
+.bread .mobile{
     display: none;
-}
-
-// Media Quries
-
-@media only screen and (max-width: 768px) {
-    .bread .desk {
-        display: none;
+  }
+  
+  // Media Quries
+  
+  @media only screen and (max-width: 768px){
+    .bread .desk{
+      display: none;
     }
-
-    .bread .mobile {
-        display: block;
+    
+    .bread .mobile{
+      display: block;
     }
-
-    .mobile .category {
+    .mobile .cato{
         font-size: 1.5rem;
     }
-
-    .mobile h5 {
-        padding-top: 2rem;
-        text-align: center;
-        text-decoration: underline;
+    .mobile h5{
+      padding-top: 2rem;
+      text-align: center;
+      text-decoration: underline;
     }
-
-    .mobile h6 {
-        font-size: 1.2rem;
-        text-align: center;
-        padding-top: 3rem;
+    .mobile h6{
+      font-size: 1.2rem;
+      text-align: center;
+      padding-top: 3rem;
     }
-
-    .filterone {
-        display: none;
+  
+    .filterone{
+      display: none;
     }
-}
-
-@media only screen and (max-width: 320px) {
-    .filterone {
-        display: none;
+  }
+  @media only screen and (max-width: 320px){
+    .filterone{
+        display:none;
     }
-}
+  }

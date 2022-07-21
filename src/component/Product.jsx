@@ -55,7 +55,6 @@ const Product = (props) => {
                     <div class="aem-Grid aem-Grid--12">
 
                         <div class="aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--phone--12 oneprice">
-                        
                             <img src={product.image} alt={product.title} height="380px" width="380px" />
                         </div>
                         <div class="aem-GridColumn aem-GridColumn--default--6 aem-GridColumn--phone--12 rating-one">
@@ -70,13 +69,12 @@ const Product = (props) => {
                                         <i><FaStar /></i>
                                         <i><FaStar /></i>
                                         <i><FiStar /></i>
-
+                                        <i><a href='#'>(175)</a></i>
 
                                     </ul>
                                 </div>
                             </p>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                sed do eiusmod tempor labore et dolore magna</p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed<br /> do eiusmod tempor labore et dolore magna. Read more</p>
                             <hr />
                             <div className="swatch">
                                 <h5>Colors</h5>
@@ -85,28 +83,19 @@ const Product = (props) => {
                                 <img src={Swatchthree} className="swatchthree" alt="image2" />
                                 <img src={Swatchfour} className="swatchfour" alt="image2" />
                             </div>
-                            <div className='size'>
+                            <div className="Sizebutton">
                                 <h5>Size</h5>
-                                <span >XS</span>
-                                <span >S</span>
-                                <span >M</span>
-                                <span >L</span>
-                                <span >XL</span>
+                                <button type="button" >XS</button>
+                                <button type="button">S</button>
+                                <button type="button" >M</button>
+                                <button type="button" >L</button>
+                                <button type="button" >XL</button>
                             </div>
-                            <br />
-                            <div className='static'>
-                                <h5 class="qty">Quantity</h5>
-                                <div class="static1">
-                                    <span className='start'>-</span>
-                                    <span className='one'>1</span>
-                                    <span className='end'>+</span>
-                                </div>
-                            </div><br />
                             <br />
                             <button className="addtocart"
                                 onClick={() => onAdd(product)}
                             >Add to Cart</button>
-                            <div className='icn'>
+                            <div className='save'>
 
                                 <a href="#">< AiOutlineHeart />save</a>
                                 <a href="#"><BiShareAlt />share</a>
@@ -124,23 +113,21 @@ const Product = (props) => {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor labore dolore magna lorem ipsum dolor sit amet ipsum dolor sit amet, consectetur. Duis tristique sollicitudin nibh sit amet. Tellus integer feugiat scelerisque varius morbi enim nunc faucibus.</p>
                         </div>
                         <div class="aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12">
-                            <div className='Details-1'>
+                            <div className='Details'>
                                 <h5> Details</h5>
                                 <h6> < TbLeaf />Sweat-wicking</h6>
-                                <h6> < TbLeaf />Breathable</h6>
+                                <h6> < GiSlicedBread />Breathable</h6>
                             </div>
                         </div>
                         <div class="aem-GridColumn aem-GridColumn--default--3 aem-GridColumn--phone--12">
-                            <div className='details'>
+                            <div className='detailsone'>
                                 <h6> < TbLeaf />Lightweight fabric</h6>
-                                <h6 className='details-1'>< TbLeaf />69% nylon, 31% lycra</h6>
+                                <h6 className='detailstwo'>< GiSlicedBread />69% nylon, 31% lycra</h6>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className='line'>
-                    <hr />
-                </div>
+
             </>
         )
     }
