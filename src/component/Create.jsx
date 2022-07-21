@@ -59,7 +59,7 @@ class Create extends Component {
               <label for="exampleInputFirst" className="form-label">First Name</label>
               <input type="text" onChange={this.myFirstchange} className="form-control" id="exampleInputFirst" aria-describedby="emailHelp" />
             </div>
-            {/* 
+
             <div className="mb-3">
               <label for="exampleInputLast" className="form-label">Last Name</label>
               <input type="text" onChange={this.myLastchange} className="form-control" id="exampleInputLast" aria-describedby="emailHelp" />
@@ -79,35 +79,13 @@ class Create extends Component {
             </div>
             <div>
               <button type="submit" className="btn btn-primary">Submit</button>
-            </div> */}
+            </div>
 
-            {/* <div className="cancle">
+            <div className="cancle">
               <a href="" className="">
                 <Link to="/signout">Cancle</Link>
               </a>
-            </div> */}
-
-            <div class="form-group">
-              <input type="text" class="form-control" id="name" placeholder="Name" />
             </div>
-            <div class="form-group">
-              <input type="email" class="form-control" id="email" placeholder="Email" />
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control" id="password" placeholder="Password" />
-            </div>
-            <div class="form-group">
-              <input type="password" class="form-control" id="confirm-password" placeholder="confirm-password" />
-            </div>
-            <div class="d-flex flex-row align-items-center justify-content-between">
-              <div className="acc-btn">
-                <Link to="/signin"><button class="btn btn-primary">Login</button></Link>
-              </div>
-              <div className="acc-btn1">
-                <button class="btn btn-primary">Create Account</button>
-              </div>
-            </div>
-
           </form>
         </div>
       </div>
